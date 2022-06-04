@@ -6,9 +6,9 @@ color 1f
 ::Se não existir o arquivo chdman dentro do diretório o script será fechado!!! 
 echo.
 if not EXIST chdman.exe (
-	echo -Arquivo chdman.exe ausente, pressione qualquer tecla para sair...
-	pause > nul 
-	exit
+  echo -Arquivo chdman.exe ausente, pressione qualquer tecla para sair...
+  pause > nul 
+  exit
 )   
 :inicio
 cls
