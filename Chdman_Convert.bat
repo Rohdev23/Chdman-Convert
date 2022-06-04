@@ -3,7 +3,7 @@
 mode con: cols=100 lines=35
 title CHDMAN CONVERT v1.0
 color 1f    
-::Se não existir o arquivo chdman dentro do diretório o script será fechado!!! 
+::Se não existir o arquivo chdman.exe dentro do diretório o script será fechado!!! 
 echo.
 if not EXIST chdman.exe (
   echo -Arquivo chdman.exe ausente, pressione qualquer tecla para sair...
