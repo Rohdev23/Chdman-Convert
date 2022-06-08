@@ -1,7 +1,7 @@
 @echo off
 ::Criado por Rodrigo Albuquerque 
 mode con: cols=100 lines=35
-title CHDMAN CONVERT v1.0
+title CHDMAN CONVERT v1.1
 color 1f    
 ::Se não existir o arquivo chdman.exe dentro do diretório o script será fechado!!! 
 echo.
@@ -12,19 +12,27 @@ if not EXIST chdman.exe (
 )   
 :inicio
 cls
-echo.     
+echo.
+echo                                                                _
+echo                                                                U 
+echo                                                 ,---.          :
+echo                                                ;     \         ;
+echo                                            .==\"/==.  '-.___.-'
+echo                                           ((+) .  .:)
+echo                                           ^|`.-(o)-.'^|
+echo                                           \/  \_/  \/
 echo                                     +---------------------+
-echo                                     + CHDMAN CONVERT v1.0 +
+echo                                     ^| CHDMAN CONVERT v1.1 ^|
 echo                                     +---------------------+
 echo.
 echo                                 +----------------------------+
-echo                                 + 1 Converter .ISO Para .CHD +
+echo                                 ^| 1 Converter .ISO Para .CHD ^|
 echo                                 +----------------------------+
-echo                                 + 2 Converter .CUE para .CHD +
+echo                                 ^| 2 Converter .CUE para .CHD ^|
 echo                                 +----------------------------+
-echo                                 + 3 Converter .GDI para .CHD +
+echo                                 ^| 3 Converter .GDI para .CHD ^|
 echo                                 +----------------------------+
-echo                                 + 4 Sair                     +
+echo                                 ^| 4 Sair                     ^|
 echo                                 +----------------------------+
 choice /c "1234" /n /m "-Digite> "
 goto %errorlevel%
