@@ -9,4 +9,6 @@
 
 4 Execute `Chdman_Convert.bat`
 
-5 Pronto! agora só escolher a opção desejada e converter suas imagens para .CHD!!!
+5 *Pronto!*
+
+Agora só escolher a opção desejada e converter suas imagens para .CHD!!!
